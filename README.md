@@ -6,7 +6,7 @@
   <li>Created a simple text editor using Java.</li>
   <li>You can save and read text files.</li>
   <li>Cut, Copy, Paste, Select All are some of it's functionalities.</li>
- </ul>S
+ </ul>
 
 
 <h3>Screenshots</h3>
