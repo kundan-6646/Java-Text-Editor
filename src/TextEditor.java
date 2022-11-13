@@ -14,6 +14,7 @@ public class TextEditor implements ActionListener {
     JMenuItem cut, copy, paste, selectAll, close;
 
     JTextArea textArea;
+    JScrollPane scrolltxt;
     TextEditor() {
         //Initializing frame
         frame = new JFrame();
@@ -31,6 +32,8 @@ public class TextEditor implements ActionListener {
         textArea = new JTextArea();
         textArea.setBackground(Color.decode("#EFF5F5"));
         textArea.setFont(new Font("Monospaced", Font.PLAIN, 14));
+        scrolltxt = scrolltxt=new JScrollPane(textArea);
+        scrolltxt.setBounds(3,3,400,400);
 
         //Initializing menu items
         newFile = new JMenuItem("New");
@@ -64,7 +67,7 @@ public class TextEditor implements ActionListener {
         edit.add(selectAll);
         edit.add(close);
 
-        frame.add(textArea);
+        frame.add(scrolltxt);
         frame.setJMenuBar(menuBar);
         //x- left margin and y- top margin
         frame.setBounds(100 , 100, 400, 400);
