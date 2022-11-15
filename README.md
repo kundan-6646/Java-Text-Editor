@@ -12,5 +12,6 @@
 <h3>Screenshots</h3>
  <p align="center">
   <img src="/images/s1.png" title="Application" alt="Application">
+  <br />
   <img src="/images/s2.png"title="Saving File" alt="Saving File">
  </p>
